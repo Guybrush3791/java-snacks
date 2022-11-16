@@ -42,7 +42,7 @@ public class Snack9 {
 			sum += x;
 		}
 		int avgInt = sum / 10;
-		float avgFloat = (float) sum / 10;
+		float avgFloat = sum / 10f;
 		double avgDouble = sum / 10.0; // 10d
 		
 		System.out.println("sum: " + sum);
